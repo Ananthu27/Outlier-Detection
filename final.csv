@@ -1,0 +1,7 @@
+,dataset,time,outlier(%),method,#features,squared error
+winequalityN,winequalityN,0.8674025535583496,1.0366702769611635,Without DC/DR,12,0.0
+winequalityN_compressed_50_TruncatedSVD,winequalityN,0.6299166679382324,1.1295064211666408,TruncatedSVD,6,0.008618549670940168
+winequalityN_compressed_50_IncrementalPCA,winequalityN,0.6178009510040283,0.835525297849296,IncrementalPCA,6,0.04045930262191364
+winequalityN_compressed_50_KernelPCA,winequalityN,0.6602096557617188,1.377069472381247,KernelPCA,6,0.11587161224264024
+winequalityN_compressed_50_SparsePCA,winequalityN,0.6625816822052002,1.4080148537830728,SparsePCA,6,0.13789679473504285
+winequalityN_compressed_50_PCA,winequalityN,0.6105871200561523,1.4699056165867244,PCA,6,0.18769285950047504
